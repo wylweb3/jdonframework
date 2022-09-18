@@ -18,7 +18,7 @@ const styles = {
     active:bg-gray-700
     transition duration-150 ease-in-out
   `,
-}
+}  
 
 const ButtonReact = ({ className, children, ...props }) => (
   <button {...props} css={styles.button} className={cx('group', className)}>
